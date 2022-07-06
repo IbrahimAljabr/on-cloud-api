@@ -1,0 +1,44 @@
+{
+  "name": "store-api",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abukhadraop-or/reverifi-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abukhadraop-or/reverifi-api/issues"
+  },
+  "homepage": "https://github.com/abukhadraop-or/reverifi-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.1.1",
+    "express-validator": "^6.14.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.7",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-yml": "^0.14.0",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.5.1",
+    "sequelize-cli": "^6.3.0"
+  }
+}
